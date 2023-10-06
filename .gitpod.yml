@@ -1,5 +1,10 @@
 image: databaseline/zoose-pytorch-gitpod:4.3.0
 
+tasks:
+  - name: git
+    before: |
+      source ./bin/showgit.sh
+
 ports:
   - name: JupyterLab
     description: JupyterLab port
