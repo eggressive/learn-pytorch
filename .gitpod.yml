@@ -1,4 +1,4 @@
-image: databaseline/zoose-pytorch-gitpod:4.0.0
+image: databaseline/zoose-pytorch-gitpod:4.3.0
 
 ports:
   - name: JupyterLab
