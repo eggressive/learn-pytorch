@@ -4,6 +4,7 @@ tasks:
   - name: git
     before: |
       source ./bin/showgit.sh
+      source ~/.bashrc
 
 ports:
   - name: JupyterLab
